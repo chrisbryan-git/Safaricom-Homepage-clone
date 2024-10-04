@@ -1,0 +1,95 @@
+/* General Styling */
+.hero-section {
+    background-image: url('../f30d61f7549b5636.jpeg');
+    /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 span {
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.hero-button {
+    background-color: white;
+    color: #41af49;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #2da44e;
+    color: white;
+}
+
+/* Popular Links Styling */
+.popular-links {
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.popular-links h2 {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.link-section {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.link-section h3 {
+    color: #41af49;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.link-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link-section ul li {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.link-section ul li:hover {
+    color: #2da44e;
+}

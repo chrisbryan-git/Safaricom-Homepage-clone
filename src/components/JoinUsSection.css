@@ -1,0 +1,85 @@
+/* Main container */
+.join-us-container {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 60px;
+}
+
+.section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.section p {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Cards container */
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 30%;
+    padding: 20px;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #34B233;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #34B233;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #28a228;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .cards-row {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}

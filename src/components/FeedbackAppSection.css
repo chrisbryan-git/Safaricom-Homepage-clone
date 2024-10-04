@@ -1,0 +1,74 @@
+
+/* Feedback Section */
+.feedback-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.feedback-section p {
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.feedback-icons {
+    display: flex;
+    margin-left: 10px;
+}
+
+.feedback-icons span {
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.feedback-icons span:hover {
+    transform: scale(1.1);
+}
+
+/* App Section */
+.app-section {
+    background-color: #34B233;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.app-section p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.app-buttons img {
+    width: 140px;
+    height: 40px;
+}
+
+
+
+/*
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .feedback-section p {
+        font-size: 14px;
+    }
+
+    .app-section h2 {
+        font-size: 20px;
+    }
+
+    .app-buttons img {
+        width: 120px;
+        height: 40px;
+    }
+}
